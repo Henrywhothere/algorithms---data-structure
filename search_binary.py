@@ -37,7 +37,7 @@ else:
 
 
 
-#dung nhi phan
+#PHIÊN BẢN ĐỆ QUI
 
 def binarySearch(arr, l, r, x): 
   
