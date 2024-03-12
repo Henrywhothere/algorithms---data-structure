@@ -16,7 +16,7 @@ def sap_xep_chon(mang):
             if mang[vi_tri_min] > mang[j]:
                 vi_tri_min = j
 
-        mang[i], mang[vi_tri_min] = mang[i], mang[vi_tri_min]
+        mang[i], mang[vi_tri_min] = mang[vi_tri_min], mang[i]
         print(i+1, '-', mang)
 
 
